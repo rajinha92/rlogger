@@ -1,0 +1,24 @@
+{
+  "name": "rajinha92/rlogger",
+  "description": "A log reporter for laravel",
+  "type": "library",
+  "require": {
+    "laravel/framework": "^5.3"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rafael Conrado",
+      "email": "rafael.conrado.farias@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RLogger\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}

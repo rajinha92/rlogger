@@ -1,0 +1,6 @@
+vendor/*
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/php.xml
+.idea/rlogger.iml
+.idea/workspace.xml
