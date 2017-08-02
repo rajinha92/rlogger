@@ -6,7 +6,7 @@
  * Time: 19:45
  */
 
-namespace RLogger;
+namespace RLogger\Providers;
 
 
 use Illuminate\Support\ServiceProvider;

@@ -21,7 +21,7 @@ Next you need to add the **ServiceProvider** in your `config/app.php` file.
 ```php
     'providers' => [
         // ...
-        \RLogger\RLoggerServiceProvider::class,
+        \RLogger\Providers\RLoggerServiceProvider::class,
     ],
 ```
 
@@ -34,7 +34,7 @@ php artisan vendor:publish
 ```
 or
 ```shell
-php artisan vendor:publish --provider="RLogger\RLoggerServiceProvider"
+php artisan vendor:publish --provider="RLogger\Providers\RLoggerServiceProvider"
 ```
 
 #### 4 - Running migrations
